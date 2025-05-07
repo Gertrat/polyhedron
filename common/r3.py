@@ -43,8 +43,7 @@ class R3:
             self.x * other.y - self.y * other.x)
 
     def dist(self, other):
-        return sqrt((self.x - other.x)**2 + (self.y - other.y)**2 +
-                    (self.z - other.z)**2)
+        return sqrt((self.x - other.x)**2 + (self.y - other.y)**2)
 
 
 if __name__ == "__main__":  # pragma: no cover
