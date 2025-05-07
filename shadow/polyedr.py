@@ -160,7 +160,7 @@ class Polyedr:
                         b = self.edges[n].beg * (1/c)
                         f = self.edges[n].fin * (1/c)
                         if b.y < 2 and f.y < 2:
-                            self.len_good_edges += b.dist(f)       
+                            self.len_good_edges += b.dist(f) * c   
                     # задание самой грани
                     self.facets.append(Facet(vertexes))
 
